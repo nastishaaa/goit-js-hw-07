@@ -14,6 +14,13 @@ body {
   
 }
 
+button{
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+
 ul{
   margin: 0;
   padding: 0;
@@ -89,5 +96,75 @@ ul{
 
 .gallery img{
   width: 360px;
-  height: 300px;
+  height: auto;
+}
+
+
+/* ----------------TASK 3 -------------- */
+#name-input{
+  width: 360px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.title-task3{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+
+/* --------------- TASK 4 --------------*/
+
+.login-form{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background: #fff;
+}
+
+label{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: auto;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+label:hover, label:focus{
+  color: #212121;
+
+}
+
+.btn-task4{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-task4:hover, .btn-task4:focus{
+  background: #6c8cff;
 }
