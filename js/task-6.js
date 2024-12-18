@@ -17,6 +17,7 @@ btnC.addEventListener('click', event => {
 
   if(num < 0 || num > 100){
     alert('Please enter a number between 1 and 100');
+    input.value = '';
     return;
   }
   createBoxes(num);
