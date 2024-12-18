@@ -15,7 +15,7 @@ btnC.addEventListener('click', event => {
   
   const num = parseInt(input.value);
 
-  if(num < 0 || num > 100){
+  if(num < 1 || num > 100){
     alert('Please enter a number between 1 and 100');
     input.value = '';
     return;

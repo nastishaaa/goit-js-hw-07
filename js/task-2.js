@@ -28,9 +28,16 @@ const images = [
     ];
     
     const gallery = document.querySelector('.gallery');
+    const fragment = document.createDocumentFragment();
+
     images.forEach(image => {
+        const liElem = document.createElement('li');
         const imgElem = document.createElement('img');
         imgElem.src = image.url;
         imgElem.alt = image.alt;
-        gallery.appendChild(imgElem);
+
+        liElem.appendChild(imgElem);
+        fragment.appendChild(liElem);
     });
+
+    gallery.appendChild(fragment);
