@@ -168,3 +168,109 @@ label:hover, label:focus{
 .btn-task4:hover, .btn-task4:focus{
   background: #6c8cff;
 }
+
+
+/* -------------- TASK 5 ---------------- */
+.widget{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.change-color{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.paragraph-task5{
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color:hover, .change-color:focus{
+  background: #6c8cff;
+}
+
+
+/* ----------------- TASK 6 ----------------- */
+
+.controls{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+}
+
+.input-task6{
+  border: 1px solid #808080;
+  border-radius: 8px;
+  /* padding: 8px 72px; */
+  padding-top: 8px;
+  padding-left: 72px;
+  padding-bottom: 8px;
+  width: 150px;
+  height: 40px;
+  gap: 10px;
+  font-size: 16px; 
+  color: #000;
+}
+
+.btn-create{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-create:hover, .btn-create:focus{
+  background: #6c8cff;
+}
+
+.btn-destroy{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-destroy:hover, .btn-destroy:focus{
+  background: #ff7070;
+}
+
+/* --------------- TASK 6 ----------------- */
+#boxes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: auto;
+  
+}
